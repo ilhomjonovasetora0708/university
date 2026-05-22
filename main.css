@@ -89,3 +89,27 @@ nav a:hover {
     width: 500px;
     border-radius: 25px; 
 }
+.about {
+    padding: 100px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.about h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.8;
+    margin-bottom: 30px; 
+}
