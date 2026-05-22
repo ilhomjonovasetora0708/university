@@ -265,3 +265,24 @@ footer {
 footer h2 {
     margin-bottom: 10px; 
 }
+@media(max-width:900px) {
+
+    .hero-content,
+    .about-content,
+    .cards {
+        flex-direction: column;
+    }
+
+    .hero img,
+    .about img {
+        width: 100%;
+    }
+
+    .hero-text h2 {
+        font-size: 40px;
+    }
+
+    .teacher-cards,
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    } }
