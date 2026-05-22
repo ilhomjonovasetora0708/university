@@ -113,3 +113,26 @@ nav a:hover {
     line-height: 1.8;
     margin-bottom: 30px; 
 }
+.stats {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    background: #2563eb;
+    color: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.courses {
+    padding: 100px 0; 
+}
